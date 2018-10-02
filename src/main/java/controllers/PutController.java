@@ -14,6 +14,7 @@ public abstract class PutController extends OperationController {
 		assert game != null;
 	}
 
+
 	public void control() {
 		assert this.getState() == State.IN_GAME;
 		Error error;
